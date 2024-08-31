@@ -1,8 +1,22 @@
-function App() {
-  return (
-    <div className="bg-gradient-to-r from-pink-600 to-cyan-700 w-screen h-screen flex justify-center items-center">
-      <h1 className=" text-white text-4xl ">Um abraço do front com Vite, Tailwind e Docker!</h1>
+import Carousel from "./components/Carousel"
+import Header from "./components/Header"
+import NavBar from "./components/Navbar"
+import CarList from "./components/CardList"
+import HighlightCollection from "./components/HighlightCollection"
+import SpecialOffer from "./components/SpecialOffer"
+import Footer from "./components/Footer"
 
+function App() {
+
+  return (
+    <div className="bg-lightGray h-screen ">
+      <Header />
+      <NavBar />
+      <Carousel />
+      <HighlightCollection />
+      <CarList />
+      <SpecialOffer />
+      <Footer />
     </div>
   )
 }
